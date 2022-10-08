@@ -15,13 +15,13 @@ public class Book {
   public String Titulo;
   public String Editorial;
   public String Edicion;
-  public Date anipublicacion;
+  public String anipublicacion;
   
     public Book(){
         
     }
 
-    public Book(String Titulo, String Editorial, String Edicion, Date anipublicacion) {
+    public Book(String Titulo, String Editorial, String Edicion, String anipublicacion) {
         this.Titulo = Titulo;
         this.Editorial = Editorial;
         this.Edicion = Edicion;
@@ -52,11 +52,11 @@ public class Book {
         this.Edicion = Edicion;
     }
 
-    public Date getAnipublicacion() {
+    public String getAnipublicacion() {
         return anipublicacion;
     }
 
-    public void setAnipublicacion(Date anipublicacion) {
+    public void setAnipublicacion(String anipublicacion) {
         this.anipublicacion = anipublicacion;
     }
 
